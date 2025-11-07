@@ -1,20 +1,14 @@
-/* Colores sugeridos inspirados en flores:
-   #F7E9E9 - Rosa claro (fondo)
-   #E3A7B0 - Rosa medio (botones)
-   #5A7B76 - Verde suave (texto/detalles)
-   #333333 - Negro suave (texto principal)
-*/
+
 
 body {
-    font-family: 'Georgia', serif; /* Fuente con un toque clásico */
+    font-family: 'Georgia', serif; 
     margin: 0;
     padding: 0;
-    background-color: #f777c1; /* Fondo muy claro */
+    background-color: #f777c1; 
     color: #0a0a0a;
     line-height: 1.6;
 }
 
-/* Estilo del Encabezado */
 .header {
     background-color: #f19bcb;
     padding: 20px 0;
@@ -23,13 +17,13 @@ body {
 }
 
 .header h1 {
-    color: #ad1b75; /* Color que imita un rosa floral */
+    color: #ad1b75; 
     margin: 0;
     font-size: 2.5em;
-    font-family: 'Playfair Display', serif; /* Opción de fuente elegante si se importa */
+    font-family: 'Playfair Display', serif; 
 }
 
-/* Navegación */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -39,7 +33,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #033029; /* Verde suave para contraste */
+    color: #033029;
     margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s;
@@ -49,7 +43,7 @@ nav ul li a:hover {
     color: #490b14;
 }
 
-/* Sección Hero (Bienvenida) */
+
 .hero {
     background-color:#ffff;
     text-align: center;
@@ -61,7 +55,7 @@ nav ul li a:hover {
     color: #6b0615;
 }
 
-/* Botón de Llamada a la Acción */
+
 .btn {
     display: inline-block;
     background-color: #E3A7B0;
@@ -77,7 +71,7 @@ nav ul li a:hover {
     background-color: #5A7B76;
 }
 
-/* Estilo de Tarjetas de Productos */
+
 .productos {
     display: flex;
     justify-content: space-around;
@@ -109,7 +103,7 @@ nav ul li a:hover {
     font-size: 1.2em;
 }
 
-/* Pie de Página */
+
 .footer {
     background-color: #076456;
     color: white;
